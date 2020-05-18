@@ -3,7 +3,7 @@
     "comments": [
       {
         "line": 1,
-        "value": "#Author: your.email@your.domain.com"
+        "value": "#Author: rabin@transfotechacademy.io"
       },
       {
         "line": 2,
@@ -80,7 +80,7 @@
         "before": [
           {
             "result": {
-              "duration": 16459993200,
+              "duration": 11844647300,
               "status": "passed"
             },
             "match": {
@@ -95,7 +95,7 @@
         "after": [
           {
             "result": {
-              "duration": 1354479800,
+              "duration": 920761100,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 444319500,
+              "duration": 429240500,
               "status": "passed"
             },
             "line": 24,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 1604173000,
+              "duration": 1497278800,
               "status": "passed"
             },
             "line": 25,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 29937400,
+              "duration": 136219900,
               "status": "passed"
             },
             "line": 26,
@@ -147,6 +147,248 @@
           {
             "line": 22,
             "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9490685200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Login Button in Homepage should be visible",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;login-button-in-homepage-should-be-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 812643300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76294200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259138300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should be able to see login button",
+            "match": {
+              "location": "HomePageTest.user_should_be_able_to_see_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9152062000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Positive login test",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;positive-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 764954500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49296800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 977094700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user click login button",
+            "match": {
+              "location": "HomePageTest.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885371600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enter valid email address and valid password",
+            "match": {
+              "location": "HomePageTest.user_enter_valid_email_address_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 834830900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "HomePageTest.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33209500,
+              "error_message": "java.lang.AssertionError: expected [My Account] but found [Login - My Store]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.qa.test.HomePageTest.user_should_land_in_account_page(HomePageTest.java:73)\r\n\tat ✽.Then user should land in account page(HomePageTest.feature:37)\r\n",
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "user should land in account page",
+            "match": {
+              "location": "HomePageTest.user_should_land_in_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9290161400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Negative login test (valid email address \u0026 invalid password)",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-(valid-email-address-\u0026-invalid-password)",
+        "after": [
+          {
+            "result": {
+              "duration": 872357800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51193000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 951859600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user click login button",
+            "match": {
+              "location": "HomePageTest.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 839863600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter valid email address and invalid password",
+            "match": {
+              "location": "HomePageTest.user_enter_valid_email_address_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2828935500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks login button",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10093903100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[text()\u003d\u0027Authentication failed.\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027USER\u0027, ip: \u0027192.168.0.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0718df9179b6e9a2898b58528c35b909\n*** Element info: {Using\u003dxpath, value\u003d//li[text()\u003d\u0027Authentication failed.\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat com.qa.pages.AuthenticationPage.authenticationFailedAlert(AuthenticationPage.java:48)\r\n\tat com.qa.test.HomePageTest.user_should_not_be_allowed_to_login(HomePageTest.java:85)\r\n\tat ✽.Then user should not be allowed to login(HomePageTest.feature:44)\r\n",
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "user should not be allowed to login",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_to_login()"
+            },
+            "keyword": "Then "
           }
         ]
       }

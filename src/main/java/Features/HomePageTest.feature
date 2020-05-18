@@ -1,4 +1,4 @@
-#Author: your.email@your.domain.com
+#Author: rabin@transfotechacademy.io
 #Keywords Summary :
 #Feature: List of scenarios.
 #Scenario: Business rule through list of steps with arguments.
@@ -25,4 +25,28 @@ Feature: Log in Button must be visible & functional in Homepage
     When user clicks login button
     Then user should land in login page
 
+  Scenario: Login Button in Homepage should be visible
+    Given user enters url
+    Then user should be able to see login button
+    
+ 	Scenario: Positive login test
+    Given user enters url
+    And user click login button
+    When user enter valid email address and valid password
+    And click login button
+    Then user should land in account page
+    
+ 	Scenario: Negative login test (valid email address & invalid password)
+    Given user enters url
+    And user click login button
+    When user enter valid email address and invalid password
+    And user clicks login button
+    Then user should not be allowed to login with invalid password
+    
+	Scenario: Negative login test (invalid email address & invalid password)
+    Given user enters url
+    And user click login button
+    When user enter invalid email address and invalid password
+    And user clicks login button
+    Then user should not be allowed to login with invalid email address and invalid password   
 

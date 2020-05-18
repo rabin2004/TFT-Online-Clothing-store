@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		
 		features = "C:\\Users\\User\\Desktop\\eclipse\\TFTonlineStore\\src\\main\\java\\Features",
-		plugin = {"pretty", "html:target/cucumber-html-report", "json:json_output/cucumber.json", "junit:junit_output/cucumber.junit"},
+		plugin = {"pretty", "html:target/cucumber-html-report", "json:json_output/cucumber.json", 
+				"junit:junit_output/cucumber.junit"},
 		monochrome = true,
 		glue="com.qa.test",
 		tags = {},
