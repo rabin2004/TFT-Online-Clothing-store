@@ -17,7 +17,7 @@ public class TakeScreenShots extends TestBase {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
 		// Now copy the screenshot to desired location using .copyFile method
-		FileUtils.copyFile(src, new File("C:/Users/User/Desktop/eclipse/TFTonlineStore/src/ScreenShots/TFT.png"));
+		FileUtils.copyFile(src, new File("C:\\Users\\User\\Desktop\\eclipse\\TFTonlineStore\\src\\ScreenShots\\TFT.png"));
 		
 		System.out.println("Screenshots taken");
 
