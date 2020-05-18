@@ -1,0 +1,166 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16459993200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login Button in Homepage should be clickable",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;login-button-in-homepage-should-be-clickable",
+        "after": [
+          {
+            "result": {
+              "duration": 1354479800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 444319500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1604173000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks login button",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29937400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should land in login page",
+            "match": {
+              "location": "HomePageTest.user_should_land_in_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Log in Button must be visible \u0026 functional in Homepage",
+    "description": "",
+    "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage",
+    "keyword": "Feature",
+    "uri": "HomePageTest.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]

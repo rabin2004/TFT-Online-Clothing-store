@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.892903">
+<testcase classname="Log in Button must be visible &amp; functional in Homepage" name="Login Button in Homepage should be clickable" time="19.892903">
+<system-out><![CDATA[Given user enters url.......................................................passed
+When user clicks login button...............................................passed
+Then user should land in login page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
