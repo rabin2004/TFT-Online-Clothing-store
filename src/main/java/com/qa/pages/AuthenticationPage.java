@@ -23,6 +23,12 @@ public class AuthenticationPage extends TestBase {
 	@FindBy(xpath="//li[text()='Invalid email address.']")
 	WebElement InvalidEmailAddAlert;
 	
+	@FindBy(xpath="//li[text()='An email address required.']")
+	WebElement EmallAddRequiredAlert;
+	
+	@FindBy(xpath="//li[text()='Password is required.']")
+	WebElement PasswordRequiredAlert;
+	
 	public AuthenticationPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -53,6 +59,14 @@ public class AuthenticationPage extends TestBase {
 	
 	public String InvalidEmailAddressAlert() {
 		return InvalidEmailAddAlert.getText();
+	}
+	
+	public String EmailAddressRequiredAlert() {
+		return EmallAddRequiredAlert.getText();
+	}
+	
+	public String passwordRequiredAlert() {
+		return PasswordRequiredAlert.getText();
 	}
 }
  

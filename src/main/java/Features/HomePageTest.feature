@@ -31,22 +31,50 @@ Feature: Log in Button must be visible & functional in Homepage
     
  	Scenario: Positive login test
     Given user enters url
-    And user click login button
+    And user clicks login button1
     When user enter valid email address and valid password
-    And click login button
+    And user clicks Signin button
     Then user should land in account page
     
  	Scenario: Negative login test (valid email address & invalid password)
     Given user enters url
-    And user click login button
+    And user clicks login button1
     When user enter valid email address and invalid password
-    And user clicks login button
+    And user clicks Signin button
     Then user should not be allowed to login with invalid password
     
 	Scenario: Negative login test (invalid email address & invalid password)
     Given user enters url
-    And user click login button
+    And user clicks login button1
     When user enter invalid email address and invalid password
-    And user clicks login button
+    And user clicks Signin button
     Then user should not be allowed to login with invalid email address and invalid password   
+    
+ 	Scenario: Negative login test with no email address but with valid password
+    Given user enters url
+    And user clicks login button1
+    When user leaves email address blank and enters valid password
+    And user clicks Signin button
+    Then user should not be allowed to login with no email address and valid password  
+    
+ 	Scenario: Negative login test with valid email address but no password
+    Given user enters url
+    And user clicks login button1
+    When user enters valid email address and leaves password blank
+    And user clicks Signin button
+    Then user should not be allowed to login with valid email address and no password  
+    
+	Scenario: Negative login test with blank email address and blank password
+    Given user enters url
+    And user clicks login button1
+    When user leaves email address and password section blank
+    And user clicks Signin button
+    Then user should not be allowed to login with no email address and no password  
+    
+ 	Scenario: Negative login test with invalid email address and valid password
+    Given user enters url
+    And user clicks login button1
+    When user enters invalid email address but valid password
+    And user clicks Signin button
+    Then user should not be allowed to login with invalid email address and valid password  
 

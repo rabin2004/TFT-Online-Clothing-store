@@ -80,7 +80,7 @@
         "before": [
           {
             "result": {
-              "duration": 11844647300,
+              "duration": 12839012800,
               "status": "passed"
             },
             "match": {
@@ -95,7 +95,7 @@
         "after": [
           {
             "result": {
-              "duration": 920761100,
+              "duration": 1232071200,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 429240500,
+              "duration": 419678000,
               "status": "passed"
             },
             "line": 24,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 1497278800,
+              "duration": 1193251900,
               "status": "passed"
             },
             "line": 25,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 136219900,
+              "duration": 96056800,
               "status": "passed"
             },
             "line": 26,
@@ -154,7 +154,7 @@
         "before": [
           {
             "result": {
-              "duration": 9490685200,
+              "duration": 10483346900,
               "status": "passed"
             },
             "match": {
@@ -169,7 +169,7 @@
         "after": [
           {
             "result": {
-              "duration": 812643300,
+              "duration": 889219700,
               "status": "passed"
             },
             "match": {
@@ -182,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76294200,
+              "duration": 108262400,
               "status": "passed"
             },
             "line": 29,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 259138300,
+              "duration": 332905400,
               "status": "passed"
             },
             "line": 30,
@@ -210,7 +210,7 @@
         "before": [
           {
             "result": {
-              "duration": 9152062000,
+              "duration": 9012704800,
               "status": "passed"
             },
             "match": {
@@ -225,7 +225,7 @@
         "after": [
           {
             "result": {
-              "duration": 764954500,
+              "duration": 979884400,
               "status": "passed"
             },
             "match": {
@@ -238,7 +238,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49296800,
+              "duration": 67454300,
               "status": "passed"
             },
             "line": 33,
@@ -250,19 +250,19 @@
           },
           {
             "result": {
-              "duration": 977094700,
+              "duration": 1282200400,
               "status": "passed"
             },
             "line": 34,
-            "name": "user click login button",
+            "name": "user clicks login button1",
             "match": {
-              "location": "HomePageTest.user_click_login_button()"
+              "location": "HomePageTest.user_clicks_login_button1()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 885371600,
+              "duration": 843781300,
               "status": "passed"
             },
             "line": 35,
@@ -274,21 +274,20 @@
           },
           {
             "result": {
-              "duration": 834830900,
+              "duration": 1075647400,
               "status": "passed"
             },
             "line": 36,
-            "name": "click login button",
+            "name": "user clicks Signin button",
             "match": {
-              "location": "HomePageTest.click_login_button()"
+              "location": "HomePageTest.user_clicks_Signin_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 33209500,
-              "error_message": "java.lang.AssertionError: expected [My Account] but found [Login - My Store]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.qa.test.HomePageTest.user_should_land_in_account_page(HomePageTest.java:73)\r\n\tat ✽.Then user should land in account page(HomePageTest.feature:37)\r\n",
-              "status": "failed"
+              "duration": 10032200,
+              "status": "passed"
             },
             "line": 37,
             "name": "user should land in account page",
@@ -303,7 +302,7 @@
         "before": [
           {
             "result": {
-              "duration": 9290161400,
+              "duration": 8732529000,
               "status": "passed"
             },
             "match": {
@@ -318,7 +317,7 @@
         "after": [
           {
             "result": {
-              "duration": 872357800,
+              "duration": 1620381500,
               "status": "passed"
             },
             "match": {
@@ -331,7 +330,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51193000,
+              "duration": 81511000,
               "status": "passed"
             },
             "line": 40,
@@ -343,19 +342,19 @@
           },
           {
             "result": {
-              "duration": 951859600,
+              "duration": 795293300,
               "status": "passed"
             },
             "line": 41,
-            "name": "user click login button",
+            "name": "user clicks login button1",
             "match": {
-              "location": "HomePageTest.user_click_login_button()"
+              "location": "HomePageTest.user_clicks_login_button1()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 839863600,
+              "duration": 773580100,
               "status": "passed"
             },
             "line": 42,
@@ -367,26 +366,485 @@
           },
           {
             "result": {
-              "duration": 2828935500,
+              "duration": 1175988400,
               "status": "passed"
             },
             "line": 43,
-            "name": "user clicks login button",
+            "name": "user clicks Signin button",
             "match": {
-              "location": "HomePageTest.user_clicks_login_button()"
+              "location": "HomePageTest.user_clicks_Signin_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 10093903100,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[text()\u003d\u0027Authentication failed.\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027USER\u0027, ip: \u0027192.168.0.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0718df9179b6e9a2898b58528c35b909\n*** Element info: {Using\u003dxpath, value\u003d//li[text()\u003d\u0027Authentication failed.\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat com.qa.pages.AuthenticationPage.authenticationFailedAlert(AuthenticationPage.java:48)\r\n\tat com.qa.test.HomePageTest.user_should_not_be_allowed_to_login(HomePageTest.java:85)\r\n\tat ✽.Then user should not be allowed to login(HomePageTest.feature:44)\r\n",
-              "status": "failed"
+              "duration": 61379700,
+              "status": "passed"
             },
             "line": 44,
-            "name": "user should not be allowed to login",
+            "name": "user should not be allowed to login with invalid password",
             "match": {
-              "location": "HomePageTest.user_should_not_be_allowed_to_login()"
+              "location": "HomePageTest.user_should_not_be_allowed_to_login_with_invalid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8345161700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Negative login test (invalid email address \u0026 invalid password)",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-(invalid-email-address-\u0026-invalid-password)",
+        "after": [
+          {
+            "result": {
+              "duration": 722185900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41148300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 991329200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks login button1",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 836078200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enter invalid email address and invalid password",
+            "match": {
+              "location": "HomePageTest.user_enter_invalid_email_address_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 710844000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks Signin button",
+            "match": {
+              "location": "HomePageTest.user_clicks_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43746800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should not be allowed to login with invalid email address and invalid password",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_to_login_with_invalid_email_address_and_invalid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8388284400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Negative login test with no email address but with valid password",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-with-no-email-address-but-with-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1372624400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74592900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1079257500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user clicks login button1",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402218100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user leaves email address blank and enters valid password",
+            "match": {
+              "location": "HomePageTest.user_leaves_email_address_blank_and_enters_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 747489700,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user clicks Signin button",
+            "match": {
+              "location": "HomePageTest.user_clicks_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41258400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user should not be allowed to login with no email address and valid password",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_to_login_with_no_email_address_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8060672600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Negative login test with valid email address but no password",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-with-valid-email-address-but-no-password",
+        "after": [
+          {
+            "result": {
+              "duration": 672639100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46185900,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1239210600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks login button1",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415549500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user enters valid email address and leaves password blank",
+            "match": {
+              "location": "HomePageTest.user_enters_valid_email_address_and_leaves_password_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 748200700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user clicks Signin button",
+            "match": {
+              "location": "HomePageTest.user_clicks_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34353300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user should not be allowed to login with valid email address and no password",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_to_login_with_valid_email_address_and_no_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9734513600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Negative login test with blank email address and blank password",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-with-blank-email-address-and-blank-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1182058200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54231500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1332877000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user clicks login button1",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user leaves email address and password section blank",
+            "match": {
+              "location": "HomePageTest.user_leaves_email_address_and_password_section_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1837129700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user clicks Signin button",
+            "match": {
+              "location": "HomePageTest.user_clicks_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66375300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user should not be allowed to login with no email address and no password",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_to_login_with_no_email_address_and_no_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9558877300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.setUp()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Negative login test with invalid email address and valid password",
+        "description": "",
+        "id": "log-in-button-must-be-visible-\u0026-functional-in-homepage;negative-login-test-with-invalid-email-address-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 781417600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99653000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user enters url",
+            "match": {
+              "location": "HomePageTest.user_enters_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1216759500,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user clicks login button1",
+            "match": {
+              "location": "HomePageTest.user_clicks_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1153440600,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user enters invalid email address but valid password",
+            "match": {
+              "location": "HomePageTest.user_enters_invalid_email_address_but_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 756259200,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user clicks Signin button",
+            "match": {
+              "location": "HomePageTest.user_clicks_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69950700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user should not be allowed to login with invalid email address and valid password",
+            "match": {
+              "location": "HomePageTest.user_should_not_be_allowed_login_with_invalid_email_address_and_valid_password()"
             },
             "keyword": "Then "
           }
